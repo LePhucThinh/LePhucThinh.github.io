@@ -1,0 +1,113 @@
+<!--RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Phuc THinh
+ID: s3893964-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Online Bookstore</title>
+    <style>
+        ul.breadcrumb {
+          padding: 10px 17px;
+          list-style: none;
+          background-color: #eeeeeeeb;
+        }
+        ul.breadcrumb li {
+          display: inline;
+          font-size: 18px;
+        }
+        ul.breadcrumb li+li:before {
+          padding: 8px;
+          color: black;
+          content: "/\00a0";
+        }
+        ul.breadcrumb li a {
+          color: #0206d8;
+          text-decoration: none;
+        }
+        ul.breadcrumb li a:hover {
+          color: #01467e;
+          text-decoration: underline;
+        }
+        </style>
+</head>
+<body>
+
+    <header>
+        <h1>The bookstore</h1>
+        <nav>
+            <div> <img src="bookstore.jpg" alt="Book logo"></div>
+            <p>Navigation Menu</p>
+            <ul> 
+                <li><a href="../index.html#h">Home</a></li><br>
+                <li><a href="../index.html#c1">Text books</a></li><br>
+                <li><a href="../index.html#c2">Fiction</a></li><br>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <ul class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="sub_textbook.html">Textbooks</a></li>
+            <li><a href="cs_books.html">Computer Science books</a></li>
+            <li>Web Accessibility for Developers</li>
+          </ul>
+          <img src="book2.jpg" alt="book2" width="400" height="600"> 
+          <strong>Price: 110$</strong>  
+
+
+
+
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms</a></li>
+                <li><a href="#copy">Copyright</a></li>
+                <li><a href="sub_folder/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h3 id="about">About Us</h3>
+            <p> We are small online book store that sells physical books developed by Vietnamese IT students.</p>
+        </section>
+
+        <section>
+            <h3 id="privacy">Privacy Policy</h3>
+            <p>We ensure your that any data or personal information that you shared with us are not shared.</p>
+        </section>
+
+        <section>
+            <h3 id="terms">Terms</h3>
+            <p>We use cookies to make your borwsing experience more pleasent. By continue using the website you accept this term.</p>
+        </section>
+
+        <section>
+            <h3 id="copy">Copyright</h3>
+            <p>Copyright © 2023 The bookstore</p>
+        </section>
+
+    </footer>
+
+    <strong>Web Accessibility for Developers</strong>
+    <blockquote>
+        Description: Web Accessibility for Developers is a technical book aimed primarily at programmers. Learn how to develop
+        accessible interactivity on the Web and gain expertise using WAI-ARIA, a W3C specification that enables optimal use of
+        assistive technologies, like screen readers, when navigating the Web.
+    </blockquote>
+
+
+</body>
+</html>
